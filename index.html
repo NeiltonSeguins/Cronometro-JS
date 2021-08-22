@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script src="script.js"></script>
+    <title>Cronômetro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="butons">
+            <button class="buton" onclick="iniciar();"><i class="uil uil-play"></i></button>
+            <button class="buton" onclick="pausar();"><i class="uil uil-pause"></i></button>
+            <button class="buton" onclick="parar();"><i class="uil uil-square-shape"></i></button>
+        </div>
+        <ul class="cronometro">
+            <li>
+                <span id="hora">00</span>
+                <div>Horas</div>
+            </li>
+            <li>
+                <span id="minuto">00</span>
+                <div>Minutos</div>
+            </li>
+            <li>
+                <span id="segundo">00</span>
+                <div>Segundos</div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
